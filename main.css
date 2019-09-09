@@ -68,7 +68,7 @@ a:active {
 }
 
 .page-header {
-  background-image: url('./img/header.png');
+  background-image: url('./img/header-2.jpg');
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -174,7 +174,7 @@ a:active {
 
 .support-wrapper .large-text {
   font-size: 20px;
-  line-height: 39px;
+  line-height: 34px;
   letter-spacing: -0.2px;
 }
 
@@ -678,7 +678,7 @@ a:active {
 
   .support-wrapper .large-text {
     font-size: 18px;
-    line-height: 35px;
+    line-height: 32px;
   }
 }
 
