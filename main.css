@@ -25,6 +25,10 @@ a:active {
   color: #fff;
 }
 
+.primary-color {
+  color: #ea2845;
+}
+
 .logo-wrapper svg,
 .logo-wrapper img {
   max-width: 70px;
@@ -204,7 +208,7 @@ a:active {
 .support-wrapper ul {
   display: block;
   list-style: none;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .support-wrapper li {
