@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 17.5px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ a:active {
 }
 
 .page-header {
-  background-image: url('./img/header-2.jpg');
+  background-image: url("./img/header-2.jpg");
   background-position: center top;
   background-size: cover;
   background-repeat: no-repeat;
@@ -236,25 +236,36 @@ a:active {
   transform: translateX(-50%) translateY(-50%);
 }
 
-.highlights-wrapper {
+.highlights-wrapper,
+.discover-wrapper {
   background: #f1f3f3;
   padding: 100px 0;
   text-align: center;
 }
 
-.highlights-wrapper .heading h4 {
+.highlights-wrapper .heading h4,
+.discover-wrapper .heading h4 {
   font-size: 36px;
   margin: 0;
   line-height: 60px;
 }
 
-.highlights-wrapper .heading p {
+.highlights-wrapper .heading p,
+.discover-wrapper .heading p {
   font-weight: 500;
   max-width: 700px;
   margin: 15px auto 50px;
   color: #000;
   font-size: 16px;
   line-height: 30px;
+}
+
+.discover-wrapper .heading a {
+  color: #ea2845;
+}
+
+.discover-wrapper .heading a:hover {
+  color: #111;
 }
 
 .highlights-wrapper .icon-wrapper {
@@ -416,7 +427,7 @@ a:active {
 }
 
 .enterprise-wrapper {
-  background-image: url('./img/support.png');
+  background-image: url("./img/support.png");
   background-position: left bottom;
   background-repeat: no-repeat;
   background-color: #ca003d;
@@ -551,6 +562,40 @@ a:active {
   color: #dedede;
   z-index: 0;
   transform: rotate(-30deg);
+}
+
+.companies-tiles {
+  width: 800px;
+  margin: 70px auto;
+}
+
+.companies-tiles a {
+  text-align: center;
+  height: 60px;
+  width: 25%;
+  float: left;
+  margin: 35px 0;
+  position: relative;
+}
+
+.companies-tiles img {
+  filter: grayscale(1);
+  opacity: 0.5;
+  max-width: 135px;
+  max-height: 80px;
+}
+
+.companies-tiles img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+}
+
+.companies-tiles a img {
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  position: absolute;
 }
 
 @media (max-width: 1300px) {
