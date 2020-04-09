@@ -565,7 +565,7 @@ a:active {
 }
 
 .companies-tiles {
-  width: 800px;
+  max-width: 800px;
   margin: 70px auto;
 }
 
@@ -669,6 +669,10 @@ a:active {
   .navbar-sticky {
     display: none;
   }
+
+  .companies-tiles a {
+    width: 50%;
+  }
 }
 
 @media (max-width: 680px) {
@@ -729,6 +733,12 @@ a:active {
   .support-wrapper .large-text {
     font-size: 18px;
     line-height: 32px;
+  }
+}
+
+@media (max-width: 420px) {
+  .companies-tiles a {
+    width: 100%;
   }
 }
 
