@@ -490,6 +490,7 @@ a:active {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 .navbar-sticky {
   position: fixed;
   z-index: 100000;
@@ -639,7 +640,6 @@ a:active {
 }
 
 .newsletter-form button {
-  background: var(--primary-color);
   background: var(--primary-gradient);
   padding: 13px 18px;
   border: 0;
