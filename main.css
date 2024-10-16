@@ -190,6 +190,10 @@ a:active {
   width: 100%;
 }
 
+.sub-nav-wrapper li {
+  display: block;
+}
+
 .navbar-sticky .sub-nav-wrapper .nav-category {
   color: rgba(0, 0, 0, 0.5);
   font-weight: 700;
