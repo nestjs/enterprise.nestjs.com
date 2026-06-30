@@ -36,11 +36,11 @@ export const links: Route.LinksFunction = () => [
   { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
   {
     rel: "icon",
-    type: "imaege/png",
+    type: "image/png",
     sizes: "32x32",
     href: "/favicon-32x32.png",
   },
-  { rel: "icon", type: "image/svg+xml", href: "/logo.svg" },
+  { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
