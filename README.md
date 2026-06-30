@@ -23,15 +23,15 @@
 
 ## Description
 
-Repository contains [enterprise.nestjs.com](https://enterprise.nestjs.com) source code, the official Nest website subpage.
+Repository contains [enterprise.nestjs.com](https://enterprise.nestjs.com) source code, the official Nest website.
 
 ## Developing
 
-Navigate to `http://localhost:1234/`.
+Navigate to `http://localhost:5173/`.
 
 ```
 $ npm install
-$ npm run start
+$ npm run dev
 ```
 
 ## Build
