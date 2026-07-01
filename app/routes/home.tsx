@@ -26,7 +26,44 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "NestJS Consulting for Enterprise. Our Experts become your development partner tackling the most ambitious projects - right by your side."
+        "NestJS Consulting for Enterprise. Our Experts become your development partner tackling the most ambitious projects - right by your side.",
+    },
+    {
+      property: "og:url",
+      content: "https://enterprise.nestjs.com",
+    },
+    {
+      property: "og:type",
+      content: "website",
+    },
+    {
+      name: "twitter:card",
+      content: "summary_large_image",
+    },
+    {
+      property: "og:site_name",
+      content: "Enterprise | NestJS - A progressive Node.js framework",
+    },
+    {
+      property: "og:title",
+      content: "Enterprise | NestJS - A progressive Node.js framework",
+    },
+    {
+      property: "og:description",
+      content:
+        "NestJS Consulting for Enterprise. Our Experts become your development partner tackling the most ambitious projects - right by your side.",
+    },
+    {
+      property: "og:image",
+      content: "https://enterprise.nestjs.com/nest-og.png",
+    },
+    {
+      property: "og:image:width",
+      content: "820",
+    },
+    {
+      property: "og:image:height",
+      content: "429",
     },
   ];
 }
