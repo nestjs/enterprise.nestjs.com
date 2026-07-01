@@ -49,6 +49,12 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const googleAnalyticsBootstrap = `
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag("js", new Date());
+    gtag("config", "UA-30617038-7");
+  `;
   return (
     <html
       lang="en"
@@ -60,6 +66,13 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-30617038-7"
+        />
+        <script
+          dangerouslySetInnerHTML={{ __html: googleAnalyticsBootstrap }}
+        />
       </head>
       <body className="w-full overflow-x-clip">
         {children}
