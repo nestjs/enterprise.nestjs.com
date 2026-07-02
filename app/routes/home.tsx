@@ -99,7 +99,7 @@ export default function Enterprise() {
         <BrandsSection />
       </div>
       <EnterpriseSection
-        className="lg:mt-30 mt-4"
+        className="lg:mt-30 mt-20"
         subheading="Enterprise Solutions"
         primaryText="Accelerate your development"
         secondaryText="We work alongside you to meet your deadlines while avoiding costly tech debt. Challenging issue? We've got you covered."
