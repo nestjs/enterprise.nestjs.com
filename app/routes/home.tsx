@@ -55,15 +55,24 @@ export function meta({}: Route.MetaArgs) {
     },
     {
       property: "og:image",
-      content: "https://enterprise.nestjs.com/nest-og.png",
+      content: "https://enterprise.nestjs.com/og-image.jpg",
     },
     {
       property: "og:image:width",
-      content: "820",
+      content: "1200",
     },
     {
       property: "og:image:height",
-      content: "429",
+      content: "630",
+    },
+    {
+      property: "og:image:alt",
+      content:
+        "NestJS Enterprise - Scale with official support: a skyline of light bars climbing to one glowing peak",
+    },
+    {
+      name: "twitter:image",
+      content: "https://enterprise.nestjs.com/og-image.jpg",
     },
   ];
 }
